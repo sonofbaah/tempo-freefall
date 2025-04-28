@@ -67,7 +67,7 @@ interface HeroSectionProps {
 
 const HeroSection = ({
   title = "FREEFALL",
-  subtitle = "DROP 001",
+  subtitle = "FIGURE OF ART",
   tagline = "Fall Free or Don't Fall At All",
   dropName = "BLACK GOLD",
   targetDate = new Date(Date.now() + 15 * 24 * 60 * 60 * 1000),

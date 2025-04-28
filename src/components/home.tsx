@@ -33,7 +33,7 @@ const Home = () => {
           className="py-16 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-8 tracking-tight">
-            <span className="text-amber-500">freefall14:</span> BLACK GOLD
+            <span className="text-amber-500">FIGURE OF ART:</span> BLACK GOLD
           </h2>
           <p className="text-gray-400 mb-12 max-w-2xl">
             Inspired by Ghana's cultural wealth and creative energy. Each piece

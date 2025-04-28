@@ -1,6 +1,18 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Info, ShoppingBag, Instagram } from "lucide-react";
+import {
+  Menu,
+  X,
+  Info,
+  ShoppingBag,
+  Instagram,
+  LogIn,
+  UserPlus,
+  Shirt,
+  Palette,
+  Lightbulb,
+  Music,
+} from "lucide-react";
 import { Button } from "./ui/button";
 
 interface FloatingNavigationProps {
@@ -60,7 +72,7 @@ const FloatingNavigation = ({ className = "" }: FloatingNavigationProps) => {
                     Current Drop
                   </h4>
                   <p className="text-xs text-gold-500">
-                    freefall14: BLACK GOLD
+                    FIGURE OF ART: BLACK GOLD
                   </p>
                   <p className="text-xs text-gray-400">
                     Inspired by Ghana's cultural wealth and creative energy.
@@ -72,6 +84,29 @@ const FloatingNavigation = ({ className = "" }: FloatingNavigationProps) => {
                 <NavItem icon={<Info size={16} />} label="About" />
                 <NavItem icon={<ShoppingBag size={16} />} label="Shop" />
                 <NavItem icon={<Instagram size={16} />} label="Instagram" />
+              </div>
+
+              <div className="pt-2">
+                <div className="text-xs font-semibold text-gold-500/80 uppercase tracking-wider mb-2 pl-1">
+                  SECTION
+                </div>
+                <div className="flex flex-col space-y-2">
+                  <NavItem icon={<LogIn size={16} />} label="Login" />
+                  <NavItem icon={<UserPlus size={16} />} label="Sign Up" />
+                </div>
+              </div>
+
+              <div className="pt-2">
+                <div className="text-xs font-semibold text-gold-500/80 uppercase tracking-wider mb-2 pl-1">
+                  Categories
+                </div>
+                <div className="flex flex-col space-y-2">
+                  <NavItem icon={<Shirt size={16} />} label="Fashion" />
+                  <NavItem icon={<Palette size={16} />} label="Art" />
+                  <NavItem icon={<Lightbulb size={16} />} label="Design" />
+                  <NavItem icon={<Music size={16} />} label="Music" />
+                  <NavItem icon={<ShoppingBag size={16} />} label="Lifestyle" />
+                </div>
               </div>
             </div>
           </motion.div>

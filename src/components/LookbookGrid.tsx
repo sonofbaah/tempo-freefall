@@ -184,7 +184,7 @@ const LookbookGrid: React.FC<LookbookGridProps> = ({
               {selectedProduct?.name}
             </DialogTitle>
             <DialogDescription className="text-zinc-400">
-              freefall14: BLACK GOLD COLLECTION
+              FIGURE OF ART: BLACK GOLD COLLECTION
             </DialogDescription>
           </DialogHeader>
 
